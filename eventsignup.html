@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>World Cuisine</title>
+      <title>Morgantown Running</title>
       <link href="css/reset.css" rel="stylesheet" type="text/css">
       <link href="css/text.css" rel="stylesheet" type="text/css">
       <link href="css/960.css" rel="stylesheet" type="text/css">
       <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div>
-  <header><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
-  <nav>
+  <div class="container_12">
+  <header class="grid_12"><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
+  <nav class="grid_12">
     <ul>
       <li><a href="#">Shop</a></li>
       <li><a href="#">Get Involved</a></li>
@@ -21,11 +21,11 @@
     <input type="search" placeholder="search">
     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
   </nav>
-  <div>
+  <div class="grid_12">
     <img src="images/getinvolvedbanner.jpg" alt="Women Running">
     <h1>Morgantown Running Club</h1>
   </div>
-  <article>
+  <article class="grid_10 prefix_1">
     <h2>A Club for Youth Runners</h2>
     <p>Morgantown Running Club or MRC is a club for youth runners in middle school or younger that get
      together either once or twice a week to run at WVU Indoor track/ Shell building. At the end of each
@@ -38,15 +38,43 @@
     <h4>1/week: $150<br>2/week: $175<br><span>*cost is for the entire season</span></h4>
   </article>
   <div>
-    <h2>Schedule</h2>
-    <h3>December<span> 6, 9, 13, 20, 23, 27, 30</span></h3>
-    <h3>January<span> 3, 6, 10, 14, 17, 20, 24, 27, 31</span></h3>
-    <h3>February<span> 3, 7, 10, 14, 17, 21, 24, 28</span></h3>
+    <div class="grid_5 prefix_4">
+      <h2>Schedule</h2>
+      <h3>December<span> 6, 9, 13, 20, 23, 27, 30</span></h3>
+      <h3>January<span> 3, 6, 10, 14, 17, 20, 24, 27, 31</span></h3>
+      <h3>February<span> 3, 7, 10, 14, 17, 21, 24, 28</span></h3>
+    </div>
   </div>
   <div>
-  formstuff
+    <form class="grid_6 prefix_3">
+      <input type="text" name="name"><br>
+      <p>Parent Name</p>
+      <input type="text" name="childname"><br>
+      <p>Child Name</p><br>
+      <input type="text" name="gender"><br>
+      <p>Gender</p><br>
+      <input type="text" name="birthday"><br>
+      <p>Birth Date</p><br>
+      <input type="text" name="address"><br>
+      <p>Address</p><br>
+      <input type="text" name="phone"><br>
+      <p>Phone Number</p><br>
+      <input type="text" name="emergency"><br>
+      <p>Emergency Contact</p><br>
+      <input type="text" name="allergies"><br>
+      <p>Allergies-If none leave blank</p><br>
+      <input type="text" name="medication"><br>
+      <p>Medication</p><br>
+      <input type="checkbox" name="1/week" value="1">
+      <input type="checkbox" name" 2/week" value="2"><br>
+      <p>1/week</p>
+      <p>2/week</p>
+      <input type="checkbox" name="terms" value="accept"><br>
+      <p>Terms and Conditions</p>
+      <input type="submit" value"Submit">
+    </form>
   </div>
-  <footer>
+  <footer class="grid_12">
     <ul>
       <li>
         <ul>

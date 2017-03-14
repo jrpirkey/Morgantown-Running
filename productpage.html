@@ -9,9 +9,9 @@
       <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div>
-  <header><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
-  <nav>
+  <div class="container_12">
+  <header class="grid_12"><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
+  <nav class="grid_12">
     <ul>
       <li><a href="#">Shop</a></li>
       <li><a href="#">Get Involved</a></li>
@@ -21,7 +21,7 @@
     <input type="search" placeholder="search">
     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
   </nav>
-  <aside>
+  <aside class="grid_2 suffix_1">
     <h3>Search Refine</h3>
     <ul>
       <li>Type</li>
@@ -31,14 +31,14 @@
       <li>Color</li>
     </ul>
   </aside>
-  <div>
+  <div class="grid_4 suffix_1">
     <img src="images/shoe.jpg" alt="Adidas Shoe"><h3>Adidas Men's Ulta boost Running shoes</h3>
     <i class="fa fa-star" aria-hidden="true"></i>
     <i class="fa fa-star" aria-hidden="true"></i>
     <i class="fa fa-star" aria-hidden="true"></i>
     <i class="fa fa-star" aria-hidden="true"></i>
     <i class="fa fa-star" aria-hidden="true"></i>
-    <h4>$179.99</h4>
+
     <ul>
       <li><img src="images/bluecolor.jpg" alt="Blue and Blue shoe color"></li>
       <li><img src="images/redcolor.jpg" alt="Red and White shoe color"></li>
@@ -46,48 +46,56 @@
       <li><img src="images/orangecolor.jpg" alt="Blue and Orange shoe color"></li>
     </ul>
   </div>
-  <h4>Size</h4>
-  <div>
-    <button onclick="myFuntion()" class="dropbtn">Mens 10</button>
-    <div id="myDropdown" class="dropdown-content">
-      <p>9</p>
-      <p>11</p>
-      <p>12</p>
-    </div>
+  <div class="grid_4">
+    <h4>$179.99</h4>
+    <form>
+        <h4>Size</h4>
+        <select name="size">
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select><br><br>
+        <h4>Width</h4>
+        <select name="width">
+          <option value="normal">normal</option>
+          <option value="wide">wide</option>
+          <option value="narrow">narrow</option>
+        </select><br><br>
+        <input type="text" name="number"><br>
+        <p>Quantity</p><br>
+    </form>
+    <button><a href="#">Add to Cart</a></button>
   </div>
-  <h4>Width</h4>
-  <div>
-    <button onclick="myFuntion()" class="dropbtn">Regular</button>
-    <div id="myDropdown" class="dropdown-content">
-      <p>Normal</p>
-      <p>Wide</p>
-    </div>
-  </div>
-  <button><a href="#">Add to Cart</a></button>
   <hr>
-  <h5>Product Information</h5>
-  <p>Amp up your run with the adidas® Men’s Ultra Boost running shoe. Designed with unique energy-returning
-   boost™ technology, this technical running shoe features 20% more boost cushioning material than ever before.
-   STRETCH WEB® technology allows for flexibility and unleashes the boost™ responsiveness upon impact. Reinvent
-    yourself and your run with the ultra-new, ultra-light, adidas® Ultra Boost.
-  </p>
-  <h5>Technology</h5>
-  <p>Energy-returning boost™ technology in the midsole to provide lightweight cushioning
-  </p>
-  <h5>Features</h5>
-  <p>Engineered mesh in upper for maximum breathability<br>
-    Synthetic midfoot overlay for durability<br>
-    Molded heel counter for added stability<br>
-    Bootie construction wraps the foot and provides support<br>
-    Rubber outsole has a grippy texture for better traction
-  </p>
-  <h5>Specs</h5>
-  <p>Shoe type: Neutral<br>
-    Weight: 10.6 oz<br>
-    Brand: adidas<br>
-    Country of Origin: United States of America or Imported
-  </p>
-  <footer>
+  <div class="grid_8 prefix_2"
+    <h5>Product Information</h5>
+    <p>Amp up your run with the adidas® Men’s Ultra Boost running shoe. Designed with unique energy-returning
+     boost™ technology, this technical running shoe features 20% more boost cushioning material than ever before.
+     STRETCH WEB® technology allows for flexibility and unleashes the boost™ responsiveness upon impact. Reinvent
+      yourself and your run with the ultra-new, ultra-light, adidas® Ultra Boost.
+    </p>
+    <h5>Technology</h5>
+    <p>Energy-returning boost™ technology in the midsole to provide lightweight cushioning
+    </p>
+    <h5>Features</h5>
+    <p>Engineered mesh in upper for maximum breathability<br>
+      Synthetic midfoot overlay for durability<br>
+      Molded heel counter for added stability<br>
+      Bootie construction wraps the foot and provides support<br>
+      Rubber outsole has a grippy texture for better traction
+    </p>
+    <h5>Specs</h5>
+    <p>Shoe type: Neutral<br>
+      Weight: 10.6 oz<br>
+      Brand: adidas<br>
+      Country of Origin: United States of America or Imported
+    </p>
+  </div>
+  <footer class="grid_12">
     <ul>
       <li>
         <ul>

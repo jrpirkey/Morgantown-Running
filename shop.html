@@ -9,9 +9,9 @@
       <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div>
-    <header><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
-    <nav>
+  <div class="container_12">
+    <header class="grid_12"><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
+    <nav class="grid_12">
       <ul>
         <li><a href="#">Shop</a></li>
         <li><a href="#">Get Involved</a></li>
@@ -21,19 +21,23 @@
       <input type="search" placeholder="search">
       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
     </nav>
-    <div>
+    <div class="grid_12">
       <img src="images/mensshop.jpg" alt="Man waiting to start race">
       <h1>Mens</h1>
     </div>
-    <div>
-      <button onclick="myFuntion()" class="dropbtn">High to Low</button>
-      <div id="myDropdown" class="dropdown-content">
-        <p>Low to High</p>
-        <p>Popular</p>
-        <p>Review</p>
-      </div>
+    <div class="grid_3 prefix_8 suffix_1">
+      <form>
+        <h4>Sort</h4>
+        <select name="sort">
+          <option value="highlow">High to Low</option>
+          <option value="lowhigh">Log to High</option>
+          <option value="ratings">Ratings</option>
+          <option value="new">Newest</option>
+          <option value="old">Oldest</option>
+        </select><br><br>
+      </form>
     </div>
-    <aside>
+    <aside class="grid_2 suffix_1">
       <h3>Search Refine</h3>
       <ul>
         <li>Type</li>
@@ -44,7 +48,7 @@
       </ul>
     </aside>
 
-    <div>
+    <div class="grid_8">
       <ul>
         <li><img src="images/shoe.jpg" alt="Adidas Shoe"><h3>Adidas Men's Ulta boost Running shoes</h3>
           <i class="fa fa-star" aria-hidden="true"></i>
@@ -193,7 +197,7 @@
       </ul>
     </div>
 
-    <div class="pagination">
+    <div class=" grid_3 prefix_4 pagination">
       <a href="#">&laquo;</a>
       <a href="#">1</a>
       <a href="#">2</a>
@@ -201,7 +205,7 @@
       <a href="#">&raquo;</a>
     </div>
 
-    <footer>
+    <footer class="grid_12">
       <ul>
         <li>
           <ul>

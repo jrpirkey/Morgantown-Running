@@ -2,16 +2,16 @@
 <html lang="en">
   <head>
       <meta charset="UTF-8">
-      <title>World Cuisine</title>
+      <title>Morgantown Running</title>
       <link href="css/reset.css" rel="stylesheet" type="text/css">
       <link href="css/text.css" rel="stylesheet" type="text/css">
       <link href="css/960.css" rel="stylesheet" type="text/css">
       <link href="css/stylesheet.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <div>
-  <header><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
-  <nav>
+  <div class="container_12">
+  <header class="grid_12"><img src="images/morgantownrunninglogo.png" alt="Morgantown Running logo"></header>
+  <nav class="grid_12">
     <ul>
       <li><a href="#">Shop</a></li>
       <li><a href="#">Get Involved</a></li>
@@ -21,11 +21,11 @@
     <input type="search" placeholder="search">
     <i class="fa fa-shopping-cart" aria-hidden="true"></i>
   </nav>
-  <div>
+  <div class="container_12">
     <img src="images/contactbanner.jpg" alt="People in Park Running">
     <h1>Contact</h1>
   </div>
-  <article>
+  <article class="grid_6 prefix_1 suffix_1">
   <h2>Get in Touch</h2>
   <p>Feel free to contact us with all your running questions and we will do our best to answer them in a quick and complete manor
   </p>
@@ -36,11 +36,20 @@
     <li><i class="fa fa-clock" aria-hidden="true"><p><span>Monday-Friday</span>10:00am-6:00pm<br><span>Saturday</span>10:00am-5:00pm<br><span>Sunday</span>12:00pm-5:00pm</p></li>
   </ul>
   </article>
-  <img src="images/googlemap.jpg" alt="Google map of Store">
+  <img class="grid_3" src="images/googlemap.jpg" alt="Google map of Store">
   <div>
-  contactform
+    <h2 class="grid_4 prefix_3">Send us a Message</h2>
+    <form class="grid_6 prefix_3">
+      <input type="text" name="name"><br>
+      <p>Name</p><br>
+      <input type="text" name="email"><br>
+      <p>Email</p>
+      <input type="text" name="message"><br>
+      <p>Message</p><br>
+      <input type="submit" value"Submit">
+    </form>
   </div>
-  <footer>
+  <footer class="grid_12">
     <ul>
       <li>
         <ul>
